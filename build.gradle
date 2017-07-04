@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+archivesBaseName = 'SpringAOP'
+version = '1' 
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-aop:1.2.7.RELEASE'
+    compile 'org.springframework:spring-aspects:4.1.8.RELEASE'
+} 
